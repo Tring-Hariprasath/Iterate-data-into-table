@@ -1,0 +1,41 @@
+table {
+    border-collapse: collapse;
+    box-shadow: 2px 2px 12px rgba( 0 , 0, 0 , 0.2), -1px -1px 8px rgba( 0 , 0, 0 , 0.2);
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    width:90%;
+    position: relative;
+    left: 60px;
+    top:50px;
+
+  }
+
+  h3{
+    background-color: #06a384;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    height:60px;
+    padding-top: 30px;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+
+  .content-table thead tr{
+    color:#ffffff;
+    background-color: #007960;
+    font-weight: bold;
+    height: 50px;
+  }
+
+  tr:hover{
+    background-color: #0cb391;
+    transform: scale(1.02);
+    box-shadow: 2px 2px 12px rgba( 0 , 0, 0 , 0.2), -1px -1px 8px rgba( 0 , 0, 0 , 0.2);
+  }
