@@ -11,7 +11,7 @@ var myArray = [
 
 
 
-    for(i in myArray){
+    for(var i in myArray){
         var row=`<tr>
                 <td>${myArray[i].name}</td>
                 <td>${myArray[i].role}</td>
